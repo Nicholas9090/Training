@@ -1,42 +1,26 @@
-#class Character:
 
+Name_A = Nicholas   #Name
+Surname_A = Lazidis #Surname
+year_of_birth_A = 1990  #Year of birth
 
+Name_B = Egle   #Name
+Surname_B = Vysniauskaite   #Surname
+year_of_birth_B = 1992 #Year of birth
 
-Name_A = Nicholas
-Surname_A = Lazidis
-year_of_birth_A = 1990
+Name_C = Michael    #Name
+Surname_C = Tsardakas   #Surname
+year_of_birth_C = 1986  #Year of birth
 
-Name_B = Egle
-Surname_B = Vysniauskaite
-year_of_birth_B = 1992
+#Question
+user_input = str(input('Who are you?'))
 
-Name_C = Michael
-Surname_C = Tsardakas
-year_of_birth_C = 1986
+#If statement that identifies your age depending on the character!
 
-
-input('Who are you?')
-user_input = input("What year were you born?")
-
-
-if int(user_input) == year_of_birth_A:
+if user_input == Name_A:
     print("You're a youngster")
-else:   int(user_input) == year_of_birth_B
+elif user_input == Name_B:
     print("You're a baby")
-elif:   int(user_input) == year_of_birth_C
-    print("You're an old bum")
+else:
+    print("You're old")
 
 
-#x = 10
-#y = 6
-
-#if x >= y:
-#    print('Hooray')
-#else:
-#    print('Gutted')
-
-#question = input('What is the ideal number?')
-#if int(question) > y:
-#    print('That is it')
-#else:
-#    print('Fuck off')
